@@ -1,0 +1,11 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 400px;
+    max-width: 200px;
+    border: 1px solid gray;
+}
+.card .cardimg img {
+    width:100%;
+}
