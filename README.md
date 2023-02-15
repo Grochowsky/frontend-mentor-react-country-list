@@ -8,7 +8,7 @@ Main Goals:
 
 -Implement an onSearch event handler to search in real-time
 
--Provide the ability to display additional information for each country by rolling down a section
+-Provide the ability to display additional information for each country by clicking on it.
 
 Running project
 1. Clone repository
