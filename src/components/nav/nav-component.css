@@ -1,0 +1,11 @@
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    -webkit-box-shadow: 1px 8px 26px -26px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 1px 8px 26px -26px rgba(66, 68, 90, 1);
+    box-shadow: 1px 8px 26px -26px rgba(66, 68, 90, 1);
+    align-items: center;
+    background-color: white;
+    padding: 0 50px;
+}

@@ -1,6 +1,8 @@
 import "./App.css";
 import { Component } from "react";
-import CountryCard from "./components/country-card.component";
+import CountryCard from "./components/country-card/country-card.component";
+import Nav from "./components/nav/nav.component";
+
 
 class App extends Component {
   constructor() {
@@ -44,8 +46,11 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Nav />
         <input placeholder="search" type="search" onChange={onChangeHandler} />
-        <CountryCard countries={filteredCountries}/>
+        <div className="countryContainer">
+          <CountryCard countries={filteredCountries}/>
+        </div>
       </div>
     );
   }

@@ -1,0 +1,24 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-height: 400px;
+    max-width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    -webkit-box-shadow: 8px 8px 24px -11px rgba(222, 222, 222, 1);
+-moz-box-shadow: 8px 8px 24px -11px rgba(222, 222, 222, 1);
+box-shadow: 8px 8px 24px -11px rgba(222, 222, 222, 1);
+margin: 0 auto;
+}
+.card .cardimg img {
+    width:100%;
+}
+.card-text {
+    padding: 10px;
+    line-height: 25px;
+}
+.card-text  h2 {
+    margin-bottom: 15px
+}
