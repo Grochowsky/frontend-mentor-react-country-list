@@ -4,9 +4,9 @@ This app is focused on the mechanisms and logic, rather than the design or styli
 
 Main Goals:
 
-Download data using the fetch API
-Implement an onSearch event handler to search in real-time
-Provide the ability to display additional information for each country by rolling down a section
+-Download data using the fetch API
+-Implement an onSearch event handler to search in real-time
+-Provide the ability to display additional information for each country by rolling down a section
 
 Running project
 1. Clone repository
