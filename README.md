@@ -12,6 +12,6 @@ Main Goals:
 
 Running project
 1. Clone repository
-2. Go to main folder of project --> cd ./vite-project
+2. Go to main folder of project --> cd frontend-mentor-react-country-list/     
 3. npm install
 4. npm run dev
